@@ -2,3 +2,6 @@ emotion-env/
 __pycache__/
 *.pyc
 .DS_Store
+launch_emotion_app.bat
+emotion_history.db
+.venv/
