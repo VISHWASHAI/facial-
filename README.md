@@ -16,8 +16,6 @@ Webcam → face detection → emotion model → SQLite history → mood rule →
 | Music | YouTube search via `yt-dlp` (no API key), played with the YouTube embed |
 | Frontend | React + TypeScript + Vite |
 
-The previous Streamlit/Keras version is kept in git history under the tag `v1-streamlit`.
-
 ## Run it
 
 Needs Python 3.10+ and Node 20+.
