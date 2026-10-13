@@ -1,0 +1,13 @@
+Mood-group evaluation on sample of 100 images per class (700 images)
+Groups: Negative = angry, disgust, fear, sad; Neutral = neutral; Positive = happy, surprise
+Overall accuracy: 0.7357
+
+              precision    recall  f1-score   support
+
+    Negative      0.812     0.775     0.793       400
+     Neutral      0.472     0.580     0.520       100
+    Positive      0.754     0.735     0.744       200
+
+    accuracy                          0.736       700
+   macro avg      0.679     0.697     0.686       700
+weighted avg      0.746     0.736     0.740       700

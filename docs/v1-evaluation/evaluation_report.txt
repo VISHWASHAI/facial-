@@ -1,0 +1,16 @@
+Evaluation on sample of 100 images per class (700 images)
+Overall accuracy: 0.5243
+
+              precision    recall  f1-score   support
+
+       angry      0.342     0.400     0.369       100
+     disgust      1.000     0.380     0.551       100
+        fear      0.408     0.400     0.404       100
+       happy      0.679     0.720     0.699       100
+     neutral      0.472     0.580     0.520       100
+         sad      0.395     0.510     0.445       100
+    surprise      0.764     0.680     0.720       100
+
+    accuracy                          0.524       700
+   macro avg      0.580     0.524     0.530       700
+weighted avg      0.580     0.524     0.530       700

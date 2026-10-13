@@ -1,0 +1,31 @@
+Model: HSEmotion enet_b0_8_best_vgaf (pretrained, not fine-tuned)
+Evaluation on FER2013 sample of 100 images per class (700 images)
+Overall accuracy: 0.5329
+
+              precision    recall  f1-score   support
+
+       Angry      0.462     0.480     0.471       100
+   Disgusted      0.738     0.620     0.674       100
+     Fearful      0.308     0.440     0.362       100
+       Happy      0.812     0.780     0.796       100
+     Neutral      0.495     0.490     0.492       100
+         Sad      0.480     0.470     0.475       100
+   Surprised      0.592     0.450     0.511       100
+
+    accuracy                          0.533       700
+   macro avg      0.555     0.533     0.540       700
+weighted avg      0.555     0.533     0.540       700
+
+
+Mood-group evaluation (Negative = angry/disgusted/fearful/sad, Neutral, Positive = happy/surprised)
+Overall accuracy: 0.7457
+
+              precision    recall  f1-score   support
+
+    Negative      0.788     0.845     0.815       400
+     Neutral      0.495     0.490     0.492       100
+    Positive      0.785     0.675     0.726       200
+
+    accuracy                          0.746       700
+   macro avg      0.689     0.670     0.678       700
+weighted avg      0.745     0.746     0.744       700

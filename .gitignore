@@ -1,7 +1,10 @@
-emotion-env/
+.venv/
+node_modules/
+frontend/dist/
 __pycache__/
 *.pyc
+.pytest_cache/
+*.db
 .DS_Store
-launch_emotion_app.bat
-emotion_history.db
-.venv/
+# FER2013 images, only needed for backend/evaluate.py
+data/
